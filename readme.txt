@@ -39,7 +39,7 @@ If your post does not have a **MORE** tag used in it, the functions default to t
 
 == Current version ==
 
-Current version: 1.2
+Current version: 1.3
 
 == Revision History ==
 
@@ -48,20 +48,4 @@ Current version: 1.2
 1.0 - removed $post->post_content to be passed in.
 1.1 - fixed a bug that stopped `the_content()` from posting
 1.2 - added function to get all post content, regardless of MORE tag
-
-== GPL ==
-Copyright 2008  Corey Dutson  (email : cdutson@wallofscribbles.com)
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+1.3 - moved to github
