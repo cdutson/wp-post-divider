@@ -40,7 +40,7 @@ function get_the_pre_more_text ()
 
 	 $morePos = stripos($post->post_content, $moreTag);
    if ($morePos !== FALSE || $morePos > -1)
-      privateConditionContent(substr($post->post_content, 0, $morePos));
+      return privateConditionContent(substr($post->post_content, 0, $morePos));
    else
       return FALSE;
 }
